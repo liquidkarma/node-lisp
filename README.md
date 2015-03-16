@@ -6,13 +6,21 @@ commander for cli: npm install commander
 ## Running
 
 REPL:
-   node cli.js
+```
+node cli.js
+```
 
 Run test cases:
-   node cli.js -t
+```
+node cli.js -t
+```
 
 Run commands from file:
-   node cli.js -f <file>
+```
+node cli.js -f /path/to/file
+```
 
 Example:
-   node cli.js -f examples/hello.lisp
+```
+node cli.js -f examples/hello.lisp
+```
